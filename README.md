@@ -10,9 +10,9 @@ Crypto Dashboard is made to sort these things out and present you all your impor
 
 
 
-## Running it
+## Installing it
 
-First clone the crypto dashboard repository and install requests:
+First clone the crypto dashboard repository, install python and requests:
 
 ```git clone https://github.com/dutchpool/cdashboard```
 
@@ -23,8 +23,13 @@ First clone the crypto dashboard repository and install requests:
 ```pip3 install requests```
 
 
+## Configure it
 
-Then start it:
+First clone the crypto dashboard repository, install python and requests:
+
+
+
+## Start it:
 
 ```python3 cryptodashboard.py```
 
@@ -37,11 +42,11 @@ It produces a file "cdashboard.json" with all the dasboard information
 To display the crypto dashboard frontend, enable docs-site on github repository settings.
 
 
-## Batch mode
+## Crontab configuration
 
 The script is also runnable by cron using the -y argument:
+`00 * * * * cd ~/dashboard && python3 ~/dashboard/cryptodashboard.py`
 
-`python3 cryptodashboard.py -y`
 
 
 
