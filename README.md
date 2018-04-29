@@ -62,6 +62,7 @@ Example: config.json
       "pubaddress": "ONZkL6Jm1MKGWnVzMzkJ8jwTxbQ8Cudqh1Hw",
       "cointype": "dpos_delegate"
     }
+  }
 }
 ``` 
     
