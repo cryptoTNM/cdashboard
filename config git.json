@@ -9,7 +9,7 @@
       "pubaddress": "15957132064002739627X",
       "cointype": "dpos_delegate"
     },
-	"ONZ Dutchpool Mainnet": {
+    "ONZ Dutchpool Mainnet": {
       "coin": "ONZ",
       "node": "https://node10.onzcoin.com",
       "pubaddress": "ONZkL6Jm1MKGWnVzMzkJ8jwTxbQ8Cudqh1Hw",
@@ -21,36 +21,36 @@
       "pubaddress": "12987214176579039005LWF",
       "cointype": "dpos_delegate"
     },
-	"Lisk Dutchpool Mainnet": {
-	  "coin": "Lisk",
-	  "node": "https://wallet.mylisk.com",
-	  "pubaddress": "13208673187956262833L",
-	  "cointype": "dpos_delegate"
-	},
+    "Lisk Dutchpool Mainnet": {
+      "coin": "Lisk",
+      "node": "https://wallet.mylisk.com",
+      "pubaddress": "13208673187956262833L",
+      "cointype": "dpos_delegate"
+    },
     "Shift Dutchpool Mainnet": {
       "coin": "Shift",
       "node": "https://wallet.shiftnrg.org",
       "pubaddress": "929480631438194624S",
       "cointype": "dpos_delegate"
     },
-	"Ark random delegate Mainnet": {
-	  "coin": "ARK",
-	  "node": "http://54.37.225.112:4001",
-	  "pubaddress": "ARKfan7iMEK3cn8QDWVzcKdCCpL4MkASHb",
-	  "cointype": "dpos_delegate"
-	},
+    "Ark random delegate Mainnet": {
+      "coin": "ARK",
+      "node": "http://54.37.225.112:4001",
+      "pubaddress": "ARKfan7iMEK3cn8QDWVzcKdCCpL4MkASHb",
+      "cointype": "dpos_delegate"
+    },
     "LWF Thamar Testnet": {
       "coin": "LWF",
       "node": "https://twallet.lwf.io",
       "pubaddress": "401197032093586591LWF",
       "cointype": "dpos_delegate"
     },
-	"Lisk random private address": {
-	  "coin": "Lisk",
-	  "node": "https://wallet.mylisk.com",
-	  "pubaddress": "3273376520443016195L",
-	  "cointype": "dpos_private"
-	},
+    "Lisk random private address": {
+      "coin": "Lisk",
+      "node": "https://wallet.mylisk.com",
+      "pubaddress": "3273376520443016195L",
+      "cointype": "dpos_private"
+    },
     "Tokugawa random masternode": {
       "coin": "Tokugawa",
       "node": "",
