@@ -119,6 +119,22 @@ We are planning to integrate other cool features:
 - strip/crunch the history of the cdashboard.json, e.g. after 48h only 1 entry a week
 
 
+## Donations
+
+If you like this project and it helps you in your every day work I would greatly appreciate it if you would consider to show some support by donating to one of the below mentioned addresses.
+
+- OXY: 		902564290011692795X
+- LWF: 		2526916071607963001LWF
+- ONZ: 		ONZfxHuBy5e39nipSZuSgcKhYURE6QkWsK2j
+- Shift: 	18040765904662116201S
+- Lisk: 	8890122000260193860L
+- BTC: 		1NrA8k8wNRwEZj2ooKQEf2fFnF6KqTE32T
+
+
+## Credits
+
+@st3v3n, @kippers, @fnoufnou
+
 	
 ## License
 
@@ -146,20 +162,3 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
-
-
-## Donations
-
-If you like this project and it helps you in your every day work I would greatly appreciate it if you would consider to show some support by donating to one of the below mentioned addresses.
-
-- OXY: 		902564290011692795X
-- LWF: 		2526916071607963001LWF
-- ONZ: 		ONZfxHuBy5e39nipSZuSgcKhYURE6QkWsK2j
-- Shift: 	18040765904662116201S
-- Lisk: 	8890122000260193860L
-- BTC: 		1NrA8k8wNRwEZj2ooKQEf2fFnF6KqTE32T
-
-
-## Credits
-
-@st3v3n, @kippers, @fnoufnou
