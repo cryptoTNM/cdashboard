@@ -25,7 +25,7 @@ First clone the crypto dashboard repository, install python and requests:
 
 ## Configure it
 
-To configure the Dashboard we need to open the config.json. With this install you get an example config.json ("config git.json") which you need to copy and change with your own parameters and coin basic information.
+To configure the Dashboard we need to open the config.json. With this install you get an example config.json ("config_git.json") which you need to copy and change with your own parameters and coin basic information.
 
 Note: Never fill in your private keys, the dashboard doesn't need these, we only work with public addresses!!! 
 
