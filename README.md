@@ -1,2 +1,129 @@
 # Dpos-crypto-dashboard
 Dashboard for Dpos delegate information, Masternodes status, staking info and crypto Wallets
+
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ThamarD/Dpos-crypto-dashboard/LICENSE)
+[![docs](https://img.shields.io/badge/doc-online-blue.svg)](https://github.com/ThamarD/Dpos-crypto-dashboard/wiki)
+
+
+An overview of all your important Dpos delegate information, Masternodes status, staking info or even just crypto Wallets!
+Crypto Dashboard is made to sort these things out and present you all your important information in one handy overview.
+
+
+
+## Running it
+
+First clone the crypto dashboard repository and install requests:
+
+```git clone https://github.com/dutchpool/cdashboard```
+
+```cd cdashboard```
+
+```apt-get install python3-pip```
+
+```pip3 install requests```
+
+
+
+Then start it:
+
+```python3 cryptodashboard.py```
+
+or if you want to use another config file:
+
+```python3 cryptodashboard.py -c config2.json```
+
+It produces a file "cdashboard.json" with all the dasboard information 
+
+To display the crypto dashboard frontend, enable docs-site on github repository settings.
+
+
+## Batch mode
+
+The script is also runnable by cron using the -y argument:
+
+`python3 cryptodashboard.py -y`
+
+
+
+
+## Command line usage
+
+```
+usage: cryptodashboard.py [-h] [-c config.json] [-y]
+
+Crypto dashboard script
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c config.json        set a config file (default: config.json)
+
+```
+
+
+## Supported/tested chains / explorers
+
+At the moment CryptDashboard supports and is tested on the following chains / explorers:
+- Dpos:  OXY, LWF, ONZ, LISK, ARK, SHIFT, RISE
+- all clones of Iquidus Explorer 
+
+Known issues:
+- chainz.cryptoid.info - basic info is working, no last TX and date-received
+
+## Changelog
+
+### 0.6
+- Initial release
+
+
+## To Do
+We are planning to integrate other cool features:
+- support for more coin explorers
+- in the HTML overview, select the history periode with a dropdown, now it is 24h and 48h;
+- add a live indication in the Dpos main dashboard, the time until the node will forge
+- strip/crunch the history of the cdashboard.json, e.g. after 48h only 1 entry a week
+
+
+	
+## License
+
+```
+Copyright (c) 2018 Thamar proud member of dutch_pool
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+```
+
+
+## Donations
+
+If you like this project and it helps you in your every day work I would greatly appreciate it if you would consider to show some support by donating to one of the below mentioned addresses.
+
+OXY: 	902564290011692795X
+LWF: 	2526916071607963001LWF
+ONZ: 	ONZfxHuBy5e39nipSZuSgcKhYURE6QkWsK2j
+Shift: 	18040765904662116201S
+Lisk: 	8890122000260193860L
+BTC: 	1NrA8k8wNRwEZj2ooKQEf2fFnF6KqTE32T
+
+
+## Credits
+
+@st3v3n, @kippers, @fnoufnou
