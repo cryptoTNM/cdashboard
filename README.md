@@ -31,7 +31,7 @@ Explanation of the parameters:
 - crunch_history: true or false; currently not functioning yet!
 - logfile: the file where all coin info is stored and added to; default "cdashboard.json"; you can change this name the way you like
 - coins: section where the coin info is represented
- - identifier: coin identifier, 
+ * identifier: coin identifier, 
  - coin: coin name
  - node: Dpos coin node web address
  - pubaddress: the public address of the coin
