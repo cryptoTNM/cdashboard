@@ -32,11 +32,11 @@ Explanation of the parameters:
 - logfile: the file where all coin info is stored and added to; default "cdashboard.json"; you can change this name the way you like
 - coins: section where the coin info is represented
    - identifier: coin identifier, 
-   - coin: coin name
-   - node: Dpos coin node web address
-   - pubaddress: the public address of the coin
-   - cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet
-   - exploreraddress: coin explorer web address (for cointype: masternode, pos_staking and wallet)
+      - coin: coin name
+      - node: Dpos coin node web address
+      - pubaddress: the public address of the coin
+      - cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet
+      - exploreraddress: coin explorer web address (for cointype: masternode, pos_staking and wallet)
 
 
 ```
