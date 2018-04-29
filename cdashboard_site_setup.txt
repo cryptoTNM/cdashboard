@@ -35,7 +35,7 @@ You can logout if you want.
 Reminder for Microsoft Azure users: don't forget to open port 80, if not already done.
 
 Now for the last step, you need to go to your domain providers control panel to edit your DNS records. 
-Simply create a new A record which points to your VPS’ IP Address. Then, you’re done! 
+Simply create a new A record which points to your VPSâ€™ IP Address. Then, youâ€™re done! 
 Wait for your DNS records to update and you should be able to see your Dashboard site by typing in your domain name.
 
 Congratulations on setting up your Crypto Dashboard.
