@@ -42,9 +42,8 @@ The parameters:
       - exploreraddress: coin explorer web address (for cointype: masternode, pos_staking and wallet)
 
 
+Example config.json:
 ```
-Example: config.json
-------------------------------------------
 {
   "cryptodashboard_file_version": 0.6,
   "crunch_history": false,
