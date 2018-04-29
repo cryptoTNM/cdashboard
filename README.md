@@ -14,7 +14,7 @@ Crypto Dashboard is made to sort these things out and present you all your impor
 
 First clone the crypto dashboard repository, install python and requests:
 
-```git clone https://github.com/dutchpool/cdashboard```
+```git clone https://github.com/ThamarD/cdashboard```
 
 ```cd cdashboard```
 
@@ -25,8 +25,41 @@ First clone the crypto dashboard repository, install python and requests:
 
 ## Configure it
 
-First clone the crypto dashboard repository, install python and requests:
+To configure the Dashboard we need to open the config.json. With this install you get an example config.json which you need to change based on your own parameters.
+Explanation of the parameters:
+- cryptodashboard_file_version: internal check if version is correct
+- crunch_history: true or false; currently not functioning yet!
+- logfile: the file where all coin info is stored and added to; default "cdashboard.json"; you can change this name the way you like
+- coins: section where the coin info is represented
+-- identifier: coin identifier, 
+-- coin: coin name
+-- node: Dpos coin node web address
+-- pubaddress: the public address of the coin
+-- cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet
+-- exploreraddress: coin explorer web address (for cointype: masternode, pos_staking and wallet)
 
+
+```
+{
+  "cryptodashboard_file_version": 0.6,
+  "crunch_history": false,
+  "logfile": "cdashboard.json",
+  "coins": {
+    "OXY Dutchpool Mainnet": {
+      "coin": "OXY",
+      "node": "https://wallet.oxycoin.io",
+      "pubaddress": "15957132064002739627X",
+      "cointype": "dpos_delegate"
+    },
+    "ONZ Dutchpool Mainnet": {
+      "coin": "ONZ",
+      "node": "https://node10.onzcoin.com",
+      "pubaddress": "ONZkL6Jm1MKGWnVzMzkJ8jwTxbQ8Cudqh1Hw",
+      "cointype": "dpos_delegate"
+    }
+}
+``` 
+    
 
 
 ## Start it:
