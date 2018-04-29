@@ -152,12 +152,12 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 If you like this project and it helps you in your every day work I would greatly appreciate it if you would consider to show some support by donating to one of the below mentioned addresses.
 
-OXY: 	902564290011692795X
-LWF: 	2526916071607963001LWF
-ONZ: 	ONZfxHuBy5e39nipSZuSgcKhYURE6QkWsK2j
-Shift: 	18040765904662116201S
-Lisk: 	8890122000260193860L
-BTC: 	1NrA8k8wNRwEZj2ooKQEf2fFnF6KqTE32T
+- OXY: 		902564290011692795X
+- LWF: 		2526916071607963001LWF
+- ONZ: 		ONZfxHuBy5e39nipSZuSgcKhYURE6QkWsK2j
+- Shift: 	18040765904662116201S
+- Lisk: 	8890122000260193860L
+- BTC: 		1NrA8k8wNRwEZj2ooKQEf2fFnF6KqTE32T
 
 
 ## Credits
