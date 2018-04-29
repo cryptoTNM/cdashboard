@@ -77,7 +77,7 @@ It produces a file "cdashboard.json" with all the dasboard information which can
 
 We advise to run the cryptodashboard script every hour to collect it's data. The cron line to configure this (use crontab -e):
 
-`00 * * * * cd ~/dashboard && python3 ~/dashboard/cryptodashboard.py`
+`00 * * * * cd ~/cdashboard && python3 ~/cdashboard/cryptodashboard.py`
 
 
 
@@ -115,7 +115,7 @@ Known issues:
 We are planning to integrate other cool features:
 - support for more coin explorers
 - in the HTML overview, select the history periode with a dropdown, now it is 24h and 48h;
-- add a live indication in the Dpos main dashboard, the time until the node will forge
+- add a live indication in the Dpos main dashboard, the time until a node will forge
 - strip/crunch the history of the cdashboard.json, e.g. after 48h only 1 entry a week
 
 
