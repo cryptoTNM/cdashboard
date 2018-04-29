@@ -25,22 +25,24 @@ First clone the crypto dashboard repository, install python and requests:
 
 ## Configure it
 
-To configure the Dashboard we need to open the config.json. With this install you get an example config.json ("config_git.json") which you need to copy and change with your own parameters and coin basic information.
+To configure the Dashboard we need to open the config.json. With this install you get an example config.json ("config_example.json") which you need to copy and change with your own parameters and coin basic information.
+```cp config_example.json config.json```
 
-Note: Never fill in your private keys, the dashboard doesn't need these, we only work with public addresses!!! 
+Note: Never fill in your private keys, the crypto dashboard doesn't need these, we only work with public addresses!!! 
 
 The parameters:
 - cryptodashboard_file_version: internal check if version is correct for updates
 - crunch_history: true or false; currently not functioning yet!
-- logfile: the file where all coin info is stored and added; default "cdashboard.json"; you can change the logile name the way you like (handy for setting up multiple config files with multiple log files, using one script)
+- logfile: the file where all coin info is stored and added; default "cdashboard.json"; you can change the logile name the way you like (handy for setting up multiple config files with multiple log files, using one python script)
 - coins: section where the coin info is represented
    - identifier: coin identifier, 
       - coin: coin name
-      - node: Dpos coin node web address
+      - node: Dpos coin node web address (if coin not a Dpos coin, fill the exploreraddress)
       - pubaddress: the public address of the coin
-      - cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet
+      - cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet*
       - exploreraddress: coin explorer web address (for cointype: masternode, pos_staking and wallet)
 
+*note for Cointype: currently, dpos_delegate is the first section of the dashboard; and dpos_private, masternode, pos_staking and wallet, are the second section of the dashboard. If you want to change this, you can do this in the case-statement in the app.js.
 
 Example config.json:
 ```
@@ -75,14 +77,14 @@ or if you want to use another config file:
 
 ```python3 cryptodashboard.py -c config2.json```
 
-It produces a file "cdashboard.json" with all the dasboard information which can be presented with the included HTML setup.
+It produces a file (if default) "cdashboard.json" with all the crypto dashboard information which can be presented with the included HTML setup.
 
 
-We advise to run the cryptodashboard script every hour to collect it's data. The cron line to configure this (use crontab -e):
+We advise to run the cryptodashboard script every hour to collect it's data. The cronjob to configure this (use crontab -e):
 
 `00 * * * * cd ~/cdashboard && python3 ~/cdashboard/cryptodashboard.py`
 
-When the script is ready and configured; you can setup the web environment, see for that setup the file "cdsahsboard_site_setup.txt".
+When the script is ready and configured; you can setup the web environment, see the setup file "cdsahsboard_site_setup.txt".
 
 
 ## Command line usage
@@ -117,15 +119,17 @@ Known issues:
 
 ## To Do
 We are planning to integrate other cool features:
-- support for more coin explorers
-- in the HTML overview, select the history periode with a dropdown, now it is 24h and 48h;
+- support for more coin explorers (e.g. BTC and ETC)
+- in the HTML overview, select the history period with a dropdown, now it is 24h and 48h;
 - add a live indication in the Dpos main dashboard, the time until a node will forge
-- strip/crunch the history of the cdashboard.json, e.g. after 48h only 1 entry a week
+- strip/crunch the history of the log (default: cdashboard.json), e.g. after 48h only 1 entry a week
+- create a web interface to maintain the config.json
+
 
 
 ## Donations
 
-If you like this project and it helps you in your every day work I would greatly appreciate it if you would consider to show some support by donating to one of the below mentioned addresses.
+If you like this Dpos crypto dashboard and it helps you to get organized, we would greatly appreciate it if you would consider to show some support by donating to one of the below mentioned addresses.
 
 - OXY: 		902564290011692795X
 - LWF: 		2526916071607963001LWF
