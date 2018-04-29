@@ -9,6 +9,24 @@
       "pubaddress": "15957132064002739627X",
       "cointype": "dpos_delegate"
     },
+    "Rise random delegate Mainnet": {
+      "coin": "Rise",
+      "node": "https://explorer.rise.vision",
+      "pubaddress": "3511748430431975976R",
+      "cointype": "dpos_delegate"
+    },
+    "Rise random private wallet": {
+      "coin": "Rise",
+      "node": "https://explorer.rise.vision",
+      "pubaddress": "1624734468715881862R",
+      "cointype": "dpos_private"
+    },
+    "OXY random private wallet": {
+      "coin": "OXY",
+      "node": "https://wallet.oxycoin.io",
+      "pubaddress": "3137788680851415743X",
+      "cointype": "dpos_private"
+    },
     "ONZ Dutchpool Mainnet": {
       "coin": "ONZ",
       "node": "https://node10.onzcoin.com",
@@ -65,19 +83,19 @@
       "exploreraddress": "http://explorer.innovacoin.info/ext/getbalance/",
       "cointype": "masternode"
     },
-    "BitcoinWallet - Genesis address": {
-      "coin": "BTC",
+    "Qbic-masternode": {
+      "coin": "Qbic",
       "node": "",
-      "pubaddress": "1A5GskpW4xy6dRJECUVQzJR1cts3PZbDod",
-      "exploreraddress": "https://blockchain.info/q/addressbalance/",
-      "cointype": "wallet"
+      "pubaddress": "GXiTWiLmHDGg3yof6zkmJkRMhjVBMtHHTN",
+      "exploreraddress": "http://139.59.131.248:3001/ext/getbalance/",
+      "cointype": "masternode"
     },
-    "BitcoinWallet - Random miner address": {
-      "coin": "BTC",
+    "Xuez - random masternode": {
+      "coin": "Xuez",
       "node": "",
-      "pubaddress": "1KFHE7w8BhaENAswwryaoccDb6qcT6DbYY",
-      "exploreraddress": "https://blockchain.info/q/addressbalance/",
-      "cointype": "wallet"
+      "pubaddress": "XT2srFoUpcSc7LvyJXQ8RfzDWxSvsMshgs",
+      "exploreraddress": "http://xuez.donkeypool.com/ext/getbalance/",
+      "cointype": "masternode"
     },
     "Whisper - staking - Nr 100": {
       "coin": "Whisper",
