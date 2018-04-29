@@ -25,11 +25,14 @@ First clone the crypto dashboard repository, install python and requests:
 
 ## Configure it
 
-To configure the Dashboard we need to open the config.json. With this install you get an example config.json which you need to change based on your own parameters.
-Explanation of the parameters:
-- cryptodashboard_file_version: internal check if version is correct
+To configure the Dashboard we need to open the config.json. With this install you get an example config.json ("config git.json") which you need to copy and change with your own parameters and coin basic information.
+
+Note: Never fill in your private keys, the dashboard doesn't need these, we only work with public addresses!!! 
+
+The parameters:
+- cryptodashboard_file_version: internal check if version is correct for updates
 - crunch_history: true or false; currently not functioning yet!
-- logfile: the file where all coin info is stored and added to; default "cdashboard.json"; you can change this name the way you like
+- logfile: the file where all coin info is stored and added; default "cdashboard.json"; you can change the logile name the way you like (handy for setting up multiple config files with multiple log files, using one script)
 - coins: section where the coin info is represented
    - identifier: coin identifier, 
       - coin: coin name
@@ -79,6 +82,7 @@ We advise to run the cryptodashboard script every hour to collect it's data. The
 
 `00 * * * * cd ~/cdashboard && python3 ~/cdashboard/cryptodashboard.py`
 
+When the script is ready and configured; you can setup the web environment, see for that setup the file "cdsahsboard_site_setup.txt".
 
 
 ## Command line usage
