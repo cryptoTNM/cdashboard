@@ -11,13 +11,13 @@
     },
     "Rise random delegate Mainnet": {
       "coin": "Rise",
-      "node": "https://explorer.rise.vision",
+      "node": "https://wallet.rise.vision",
       "pubaddress": "3511748430431975976R",
       "cointype": "dpos_delegate"
     },
     "Rise random private wallet": {
       "coin": "Rise",
-      "node": "https://explorer.rise.vision",
+      "node": "https://wallet.rise.vision",
       "pubaddress": "1624734468715881862R",
       "cointype": "dpos_private"
     },
