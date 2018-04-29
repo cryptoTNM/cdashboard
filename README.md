@@ -40,6 +40,8 @@ Explanation of the parameters:
 
 
 ```
+Example: config.json
+------------------------------------------
 {
   "cryptodashboard_file_version": 0.6,
   "crunch_history": false,
@@ -70,17 +72,12 @@ or if you want to use another config file:
 
 ```python3 cryptodashboard.py -c config2.json```
 
-It produces a file "cdashboard.json" with all the dasboard information 
-
-To display the crypto dashboard frontend, enable docs-site on github repository settings.
+It produces a file "cdashboard.json" with all the dasboard information which can be presented with the included HTML setup.
 
 
-## Crontab configuration
+We advise to run the cryptodashboard script every hour to collect it's data. The cron line to configure this (use crontab -e):
 
-The script is also runnable by cron using the -y argument:
 `00 * * * * cd ~/dashboard && python3 ~/dashboard/cryptodashboard.py`
-
-
 
 
 
@@ -105,6 +102,7 @@ At the moment CryptDashboard supports and is tested on the following chains / ex
 - all clones of Iquidus Explorer 
 
 Known issues:
+- a lot of explorer chains are not supported yet; working on it!
 - chainz.cryptoid.info - basic info is working, no last TX and date-received
 
 ## Changelog
