@@ -26,6 +26,7 @@ First clone the crypto dashboard repository, install python and requests:
 ## Configure it
 
 To configure the Dashboard we need to open the config.json. With this install you get an example config.json ("config_example.json") which you need to copy and change with your own parameters and coin basic information.
+
 ```cp config_example.json config.json```
 
 Note: Never fill in your private keys, the crypto dashboard doesn't need these, we only work with public addresses!!! 
@@ -39,10 +40,11 @@ The parameters:
       - coin: coin name
       - node: Dpos coin node web address (if coin not a Dpos coin, fill the exploreraddress)
       - pubaddress: the public address of the coin
-      - cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet*
+      - cointype: options are: dpos_delegate, dpos_private, masternode, pos_staking and wallet
+         - currently, dpos_delegate is the first section of the dashboard; and dpos_private, masternode, pos_staking and wallet, are the second section of the dashboard. If you want to change this, you can do this in the case-statement in the app.js.
       - exploreraddress: coin explorer web address (for cointype: masternode, pos_staking and wallet)
 
-*note for Cointype: currently, dpos_delegate is the first section of the dashboard; and dpos_private, masternode, pos_staking and wallet, are the second section of the dashboard. If you want to change this, you can do this in the case-statement in the app.js.
+
 
 Example config.json:
 ```
