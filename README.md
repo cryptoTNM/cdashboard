@@ -1,9 +1,9 @@
 # Dpos-crypto-dashboard
-Dashboard for Dpos delegate information, Masternodes status, staking info and crypto Wallets
-
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ThamarD/Dpos-crypto-dashboard/LICENSE)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ThamarD/Dpos-crypto-dashboard/blob/master/LICENSE)
 [![docs](https://img.shields.io/badge/doc-online-blue.svg)](https://github.com/ThamarD/Dpos-crypto-dashboard/wiki)
 
+
+Dashboard for Dpos delegate information, Masternodes status, staking info and crypto Wallets
 
 An overview of all your important Dpos delegate information, Masternodes status, staking info or even just crypto Wallets!
 Crypto Dashboard is made to sort these things out and present you all your important information in one handy overview.
