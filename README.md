@@ -9,6 +9,9 @@ An overview of all your important Dpos delegate information, Masternodes status,
 Crypto Dashboard is made to sort these things out and present you all your important information in one handy overview.
 
 
+If you like this dashboard, please consider to vote for the dutch_pool delegates: dutch_pool, st3v3n, kippers, fnoufnou and thamar and receive the high sharing percentage of 90% per delegate!
+More info you can find on http://dutchpool.io
+
 
 ## Installing it
 
